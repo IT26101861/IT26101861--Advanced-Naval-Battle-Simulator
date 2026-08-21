@@ -1,0 +1,13 @@
+===============================================
+              INITIAL CONDITIONS
+===============================================
+
+Battleship Type   : USS Iowa BB-61 (U)
+Battleship Choice : 1
+Canvas Size       : 12
+Number of Escorts : 23
+Battleship X      : 3
+Battleship Y      : 23
+Seed Value        : 23
+
+===============================================
