@@ -1,0 +1,23 @@
+=============================================================
+                    FINAL CONDITIONS
+                       PART 1-A
+=============================================================
+
+[ BATTLESHIP ]
+Type              : USS Iowa (BB-61) [U]
+Position          : (6, 6)
+Status            : SUNK
+Destroyed By      : E005
+Destroyed At      : 3.8947 seconds
+
+[ BATTLE SUMMARY ]
+Escorts Destroyed : 5
+Last B -> E Hit   : 1.1455 seconds
+All Shells End    : 3.8947 seconds
+
+[ ESCORT FINAL STATES ]
+E001 | ED  | Position (3,35) | DESTROYED at 0.8394 seconds
+E002 | EA  | Position (2,38) | DESTROYED at 0.9297 seconds
+E003 | EA  | Position (6,13) | DESTROYED at 0.2003 seconds
+E004 | ED  | Position (14,43) | DESTROYED at 1.0949 seconds
+E005 | EA  | Position (20,43) | DESTROYED at 1.1455 seconds

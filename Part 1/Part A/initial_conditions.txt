@@ -1,0 +1,95 @@
+=============================================================
+                    INITIAL CONDITIONS
+                       PART 1-A
+=============================================================
+
+[ BATTLESHIP ]
+Type / Name       : USS Iowa (BB-61)
+Notation          : U
+Gun               : 50-caliber Mark 7 gun
+Position          : (6, 6)
+Minimum Velocity  : 0.00
+Maximum Velocity  : 35.00
+Minimum Angle     : 0 degrees
+Maximum Angle     : 90 degrees
+Minimum Range     : 0.0000
+Maximum Range     : 124.8726
+
+[ BATTLEFIELD ]
+Lower Left        : (0, 0)
+Upper Right       : (45, 45)
+Canvas D          : 45
+Number of Escorts : 5
+Seed Value        : 6
+
+[ ESCORT SHIPS ]
+
+Escort ID         : E001
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (3, 35)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 6.00
+Minimum Angle     : 16 degrees
+Maximum Angle     : 66 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.2161
+Maximum Range     : 3.6697
+Distance from B   : 29.1548
+
+Escort ID         : E002
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (2, 38)
+Minimum Velocity  : 7.00
+Maximum Velocity  : 42.00
+Minimum Angle     : 68 degrees
+Maximum Angle     : 88 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 0.3484
+Maximum Range     : 124.9110
+Distance from B   : 32.2490
+
+Escort ID         : E003
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (6, 13)
+Minimum Velocity  : 28.00
+Maximum Velocity  : 42.00
+Minimum Angle     : 49 degrees
+Maximum Angle     : 69 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 53.4759
+Maximum Range     : 178.0666
+Distance from B   : 7.0000
+
+Escort ID         : E004
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (14, 43)
+Minimum Velocity  : 1.00
+Maximum Velocity  : 8.00
+Minimum Angle     : 32 degrees
+Maximum Angle     : 82 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.0281
+Maximum Range     : 6.5240
+Distance from B   : 37.8550
+
+Escort ID         : E005
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (20, 43)
+Minimum Velocity  : 9.00
+Maximum Velocity  : 42.00
+Minimum Angle     : 62 degrees
+Maximum Angle     : 82 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 2.2759
+Maximum Range     : 149.0746
+Distance from B   : 39.5601
