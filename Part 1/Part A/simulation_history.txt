@@ -1,0 +1,85 @@
+
+=============================================================
+SIMULATION RUN 1
+=============================================================
+
+[ INITIAL SETUP ]
+Battleship        : USS Iowa (BB-61) [U]
+B Position        : (2, 4)
+B Vmin            : 0.00
+B Vmax            : 10.00
+B Angle Range     : 0 - 90 degrees
+B Attack Range    : 0.0000 - 10.1937
+Canvas            : (0,0) to (10,10)
+Escort Count      : 1
+Seed              : 57
+
+[ ESCORT INITIAL CONDITIONS ]
+E001 | EE | (7,5) | V 5.00-8.00 | Angle 13-83 | Range 0.6165-6.5240 | Dist B 5.0990
+
+[ BATTLESHIP -> ESCORT IMPACTS ]
+E001 | EE | Hit 0.5280 s | Distance 5.0990 | Angle 15.01 | Velocity 9.9991
+
+[ ESCORT -> BATTLESHIP IMPACTS ]
+E001 | EE | Hit 0.7075 s | Distance 5.0990 | Angle 25.71 | Velocity 7.9992 | SINKS B
+
+[ RESULT ]
+Battleship Status : SUNK
+Escorts Hit by B  : 1
+Sunk By Escort    : E001
+Sink Time         : 0.7075 seconds
+Last B -> E Hit   : 0.5280 seconds
+All Shells End    : 0.7075 seconds
+
+[ FINAL ESCORT STATES ]
+E001 | EE | DESTROYED at 0.5280 seconds
+=============================================================
+
+=============================================================
+SIMULATION RUN 2
+=============================================================
+
+[ INITIAL SETUP ]
+Battleship        : USS Iowa (BB-61) [U]
+B Position        : (6, 6)
+B Vmin            : 0.00
+B Vmax            : 35.00
+B Angle Range     : 0 - 90 degrees
+B Attack Range    : 0.0000 - 124.8726
+Canvas            : (0,0) to (45,45)
+Escort Count      : 5
+Seed              : 6
+
+[ ESCORT INITIAL CONDITIONS ]
+E001 | ED | (3,35) | V 2.00-6.00 | Angle 16-66 | Range 0.2161-3.6697 | Dist B 29.1548
+E002 | EA | (2,38) | V 7.00-42.00 | Angle 68-88 | Range 0.3484-124.9110 | Dist B 32.2490
+E003 | EA | (6,13) | V 28.00-42.00 | Angle 49-69 | Range 53.4759-178.0666 | Dist B 7.0000
+E004 | ED | (14,43) | V 1.00-8.00 | Angle 32-82 | Range 0.0281-6.5240 | Dist B 37.8550
+E005 | EA | (20,43) | V 9.00-42.00 | Angle 62-82 | Range 2.2759-149.0746 | Dist B 39.5601
+
+[ BATTLESHIP -> ESCORT IMPACTS ]
+E001 | ED | Hit 0.8394 s | Distance 29.1548 | Angle 6.76 | Velocity 34.9769
+E002 | EA | Hit 0.9297 s | Distance 32.2490 | Angle 7.49 | Velocity 34.9847
+E003 | EA | Hit 0.2003 s | Distance 7.0000 | Angle 1.61 | Velocity 34.9648
+E004 | ED | Hit 1.0949 s | Distance 37.8550 | Angle 8.83 | Velocity 34.9874
+E005 | EA | Hit 1.1455 s | Distance 39.5601 | Angle 9.24 | Velocity 34.9906
+
+[ ESCORT -> BATTLESHIP IMPACTS ]
+E002 | EA | Hit 4.0340 s | Distance 32.2490 | Angle 68.00 | Velocity 21.3406
+E005 | EA | Hit 3.8947 s | Distance 39.5601 | Angle 62.00 | Velocity 21.6360 | SINKS B
+
+[ RESULT ]
+Battleship Status : SUNK
+Escorts Hit by B  : 5
+Sunk By Escort    : E005
+Sink Time         : 3.8947 seconds
+Last B -> E Hit   : 1.1455 seconds
+All Shells End    : 3.8947 seconds
+
+[ FINAL ESCORT STATES ]
+E001 | ED | DESTROYED at 0.8394 seconds
+E002 | EA | DESTROYED at 0.9297 seconds
+E003 | EA | DESTROYED at 0.2003 seconds
+E004 | ED | DESTROYED at 1.0949 seconds
+E005 | EA | DESTROYED at 1.1455 seconds
+=============================================================
