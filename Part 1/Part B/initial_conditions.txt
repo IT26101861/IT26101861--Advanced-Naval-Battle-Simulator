@@ -1,0 +1,190 @@
+=============================================================
+                    INITIAL CONDITIONS
+=============================================================
+
+Simulation Mode   : PART 1-B - SIMULATION 2 COMPARISON
+
+[ BATTLESHIP ]
+Type / Name       : USS Iowa (BB-61)
+Notation          : U
+Gun               : 50-caliber Mark 7 gun
+Initial Position  : (12, 12)
+Minimum Velocity  : 0.00
+Maximum Velocity  : 12.00
+Minimum Angle     : 0 degrees
+Maximum Angle     : 90 degrees
+Minimum Range     : 0.0000
+Maximum Range     : 14.6789
+
+[ BATTLEFIELD ]
+Lower Left        : (0, 0)
+Upper Right       : (12, 12)
+Number of Escorts : 12
+Seed Value        : 121
+
+[ BATTLESHIP PATH ]
+Path Points       : 6
+Point 01          : (12, 12)
+Point 02          : (12, 4)
+Point 03          : (2, 7)
+Point 04          : (6, 5)
+Point 05          : (3, 8)
+Point 06          : (1, 1)
+
+[ ESCORT SHIPS ]
+
+Escort ID         : E001
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (8, 4)
+Minimum Velocity  : 5.00
+Maximum Velocity  : 6.00
+Minimum Angle     : 22 degrees
+Maximum Angle     : 72 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 1.4979
+Maximum Range     : 3.6697
+
+Escort ID         : E002
+Type / Notation   : EE
+Type Name         : Japanese Kaibokan
+Gun               : (4.7 inch) naval guns
+Position          : (6, 1)
+Minimum Velocity  : 1.00
+Maximum Velocity  : 4.00
+Minimum Angle     : 17 degrees
+Maximum Angle     : 87 degrees
+Angle Range       : 70 degrees
+Minimum Range     : 0.0107
+Maximum Range     : 1.6310
+
+Escort ID         : E003
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (2, 2)
+Minimum Velocity  : 9.00
+Maximum Velocity  : 10.00
+Minimum Angle     : 19 degrees
+Maximum Angle     : 69 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 5.0834
+Maximum Range     : 10.1937
+
+Escort ID         : E004
+Type / Notation   : EB
+Type Name         : Gabbiano-class Corvette
+Gun               : L/47 dual-purpose gun
+Position          : (1, 9)
+Minimum Velocity  : 1.00
+Maximum Velocity  : 2.00
+Minimum Angle     : 20 degrees
+Maximum Angle     : 50 degrees
+Angle Range       : 30 degrees
+Minimum Range     : 0.0655
+Maximum Range     : 0.4077
+
+Escort ID         : E005
+Type / Notation   : EE
+Type Name         : Japanese Kaibokan
+Gun               : (4.7 inch) naval guns
+Position          : (7, 11)
+Minimum Velocity  : 3.00
+Maximum Velocity  : 5.00
+Minimum Angle     : 18 degrees
+Maximum Angle     : 88 degrees
+Angle Range       : 70 degrees
+Minimum Range     : 0.0640
+Maximum Range     : 2.5484
+
+Escort ID         : E006
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (3, 9)
+Minimum Velocity  : 7.00
+Maximum Velocity  : 9.00
+Minimum Angle     : 35 degrees
+Maximum Angle     : 85 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.8674
+Maximum Range     : 8.2569
+
+Escort ID         : E007
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (10, 3)
+Minimum Velocity  : 8.00
+Maximum Velocity  : 10.00
+Minimum Angle     : 23 degrees
+Maximum Angle     : 73 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 3.6481
+Maximum Range     : 10.1937
+
+Escort ID         : E008
+Type / Notation   : EC
+Type Name         : Matsu-class Destroyer
+Gun               : Type 89 dual-purpose gun
+Position          : (0, 0)
+Minimum Velocity  : 7.00
+Maximum Velocity  : 10.00
+Minimum Angle     : 60 degrees
+Maximum Angle     : 85 degrees
+Angle Range       : 25 degrees
+Minimum Range     : 0.8674
+Maximum Range     : 8.8280
+
+Escort ID         : E009
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (11, 9)
+Minimum Velocity  : 8.00
+Maximum Velocity  : 10.00
+Minimum Angle     : 17 degrees
+Maximum Angle     : 67 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 3.6481
+Maximum Range     : 10.1937
+
+Escort ID         : E010
+Type / Notation   : EB
+Type Name         : Gabbiano-class Corvette
+Gun               : L/47 dual-purpose gun
+Position          : (2, 11)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 4.00
+Minimum Angle     : 45 degrees
+Maximum Angle     : 75 degrees
+Angle Range       : 30 degrees
+Minimum Range     : 0.2039
+Maximum Range     : 1.6310
+
+Escort ID         : E011
+Type / Notation   : EB
+Type Name         : Gabbiano-class Corvette
+Gun               : L/47 dual-purpose gun
+Position          : (6, 10)
+Minimum Velocity  : 5.00
+Maximum Velocity  : 8.00
+Minimum Angle     : 1 degrees
+Maximum Angle     : 31 degrees
+Angle Range       : 30 degrees
+Minimum Range     : 0.0889
+Maximum Range     : 5.7603
+
+Escort ID         : E012
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (5, 4)
+Minimum Velocity  : 5.00
+Maximum Velocity  : 6.00
+Minimum Angle     : 5 degrees
+Maximum Angle     : 55 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.4425
+Maximum Range     : 3.6697

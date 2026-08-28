@@ -1,0 +1,302 @@
+
+=============================================================
+SIMULATION RUN 1
+=============================================================
+
+[ INITIAL SETUP ]
+Battleship        : USS Iowa (BB-61) [U]
+B Position        : (2, 4)
+B Vmin            : 0.00
+B Vmax            : 10.00
+B Angle Range     : 0 - 90 degrees
+B Attack Range    : 0.0000 - 10.1937
+Canvas            : (0,0) to (10,10)
+Escort Count      : 1
+Seed              : 57
+
+[ ESCORT INITIAL CONDITIONS ]
+E001 | EE | (7,5) | V 5.00-8.00 | Angle 13-83 | Range 0.6165-6.5240 | Dist B 5.0990
+
+[ BATTLESHIP -> ESCORT IMPACTS ]
+E001 | EE | Hit 0.5280 s | Distance 5.0990 | Angle 15.01 | Velocity 9.9991
+
+[ ESCORT -> BATTLESHIP IMPACTS ]
+E001 | EE | Hit 0.7075 s | Distance 5.0990 | Angle 25.71 | Velocity 7.9992 | SINKS B
+
+[ RESULT ]
+Battleship Status : SUNK
+Escorts Hit by B  : 1
+Sunk By Escort    : E001
+Sink Time         : 0.7075 seconds
+Last B -> E Hit   : 0.5280 seconds
+All Shells End    : 0.7075 seconds
+
+[ FINAL ESCORT STATES ]
+E001 | EE | DESTROYED at 0.5280 seconds
+=============================================================
+
+=============================================================
+SIMULATION RUN 2
+=============================================================
+
+[ INITIAL SETUP ]
+Battleship        : USS Iowa (BB-61) [U]
+B Position        : (6, 6)
+B Vmin            : 0.00
+B Vmax            : 35.00
+B Angle Range     : 0 - 90 degrees
+B Attack Range    : 0.0000 - 124.8726
+Canvas            : (0,0) to (45,45)
+Escort Count      : 5
+Seed              : 6
+
+[ ESCORT INITIAL CONDITIONS ]
+E001 | ED | (3,35) | V 2.00-6.00 | Angle 16-66 | Range 0.2161-3.6697 | Dist B 29.1548
+E002 | EA | (2,38) | V 7.00-42.00 | Angle 68-88 | Range 0.3484-124.9110 | Dist B 32.2490
+E003 | EA | (6,13) | V 28.00-42.00 | Angle 49-69 | Range 53.4759-178.0666 | Dist B 7.0000
+E004 | ED | (14,43) | V 1.00-8.00 | Angle 32-82 | Range 0.0281-6.5240 | Dist B 37.8550
+E005 | EA | (20,43) | V 9.00-42.00 | Angle 62-82 | Range 2.2759-149.0746 | Dist B 39.5601
+
+[ BATTLESHIP -> ESCORT IMPACTS ]
+E001 | ED | Hit 0.8394 s | Distance 29.1548 | Angle 6.76 | Velocity 34.9769
+E002 | EA | Hit 0.9297 s | Distance 32.2490 | Angle 7.49 | Velocity 34.9847
+E003 | EA | Hit 0.2003 s | Distance 7.0000 | Angle 1.61 | Velocity 34.9648
+E004 | ED | Hit 1.0949 s | Distance 37.8550 | Angle 8.83 | Velocity 34.9874
+E005 | EA | Hit 1.1455 s | Distance 39.5601 | Angle 9.24 | Velocity 34.9906
+
+[ ESCORT -> BATTLESHIP IMPACTS ]
+E002 | EA | Hit 4.0340 s | Distance 32.2490 | Angle 68.00 | Velocity 21.3406
+E005 | EA | Hit 3.8947 s | Distance 39.5601 | Angle 62.00 | Velocity 21.6360 | SINKS B
+
+[ RESULT ]
+Battleship Status : SUNK
+Escorts Hit by B  : 5
+Sunk By Escort    : E005
+Sink Time         : 3.8947 seconds
+Last B -> E Hit   : 1.1455 seconds
+All Shells End    : 3.8947 seconds
+
+[ FINAL ESCORT STATES ]
+E001 | ED | DESTROYED at 0.8394 seconds
+E002 | EA | DESTROYED at 0.9297 seconds
+E003 | EA | DESTROYED at 0.2003 seconds
+E004 | ED | DESTROYED at 1.0949 seconds
+E005 | EA | DESTROYED at 1.1455 seconds
+=============================================================
+
+=============================================================
+SIMULATION RUN 3
+=============================================================
+Mode              : PART 1-A
+Battleship        : USS Iowa (BB-61) [U]
+Initial Position  : (12, 12)
+B Vmax            : 12.00
+Canvas            : (0,0) to (12,12)
+Escort Count      : 12
+Seed              : 12
+
+-------------------------------------------------------------
+ITERATION 1
+-------------------------------------------------------------
+B Position        : (12, 12)
+
+B -> E IMPACTS
+E001 | EC | Hit 0.6020 s | Distance 7.0000 | Angle 14.25 | Velocity 11.9964
+E002 | EC | Hit 1.2143 s | Distance 12.6491 | Angle 29.76 | Velocity 11.9994
+E003 | EA | Hit 0.5114 s | Distance 6.0000 | Angle 12.07 | Velocity 11.9968
+E004 | EC | Hit 0.6278 s | Distance 7.2801 | Angle 14.87 | Velocity 11.9987
+E005 | EA | Hit 1.2720 s | Distance 13.0384 | Angle 31.33 | Velocity 11.9996
+E006 | EA | Hit 0.3366 s | Distance 4.0000 | Angle 7.91 | Velocity 11.9974
+E007 | EC | Hit 1.4984 s | Distance 14.2127 | Angle 37.77 | Velocity 11.9995
+E008 | EB | Hit 0.4231 s | Distance 5.0000 | Angle 9.96 | Velocity 11.9985
+E009 | ED | Hit 1.0527 s | Distance 11.4018 | Angle 25.49 | Velocity 11.9986
+E010 | EC | Hit 1.0527 s | Distance 11.4018 | Angle 25.49 | Velocity 11.9986
+E011 | EB | Hit 0.6084 s | Distance 7.0711 | Angle 14.40 | Velocity 11.9995
+E012 | EE | Hit 0.9009 s | Distance 10.0499 | Angle 21.61 | Velocity 11.9987
+
+E -> B IMPACTS
+E003 | EA | Hit 1.1255 s | Distance 6.0000 | Angle 46.00 | Velocity 7.6744
+E005 | EA | Hit 0.9581 s | Distance 13.0384 | Angle 19.05 | Velocity 14.3976
+E006 | EA | Hit 0.4339 s | Distance 4.0000 | Angle 13.00 | Velocity 9.4611 | SINKS B
+E008 | EB | Hit 0.5226 s | Distance 5.0000 | Angle 15.00 | Velocity 9.9045
+
+Destroyed in Step : 12
+Step End Time     : 1.4984 seconds
+Cumulative Time   : 1.4984 seconds
+B Status          : SUNK
+Sunk By           : E006
+Sink Time         : 0.4339 seconds
+
+[ FINAL RESULT ]
+Iterations Run    : 1
+B Status          : SUNK
+Final B Position  : (12, 12)
+Escorts Destroyed : 12
+Escorts Remaining : 0
+Total Step Time   : 1.4984 seconds
+Sunk By           : E006
+Sink Iteration    : 1
+Sink Time In Step : 0.4339 seconds
+
+FINAL ESCORT STATES
+E001 | EC | DESTROYED in iteration 1
+E002 | EC | DESTROYED in iteration 1
+E003 | EA | DESTROYED in iteration 1
+E004 | EC | DESTROYED in iteration 1
+E005 | EA | DESTROYED in iteration 1
+E006 | EA | DESTROYED in iteration 1
+E007 | EC | DESTROYED in iteration 1
+E008 | EB | DESTROYED in iteration 1
+E009 | ED | DESTROYED in iteration 1
+E010 | EC | DESTROYED in iteration 1
+E011 | EB | DESTROYED in iteration 1
+E012 | EE | DESTROYED in iteration 1
+=============================================================
+
+=============================================================
+SIMULATION RUN 4
+=============================================================
+Mode              : PART 1-B - SIMULATION 1 BASELINE
+Battleship        : USS Iowa (BB-61) [U]
+Initial Position  : (12, 12)
+B Vmax            : 12.00
+Canvas            : (0,0) to (12,12)
+Escort Count      : 12
+Seed              : 121
+Path Points       : 6
+Path 01          : (12, 12)
+Path 02          : (12, 4)
+Path 03          : (2, 7)
+Path 04          : (6, 5)
+Path 05          : (3, 8)
+Path 06          : (1, 1)
+
+-------------------------------------------------------------
+ITERATION 1
+-------------------------------------------------------------
+B Position        : (12, 12)
+B Angle Range     : 0 - 90 degrees
+
+B -> E IMPACTS
+E001 | ED | Hit 0.7874 s | Distance 8.9443 | Angle 18.78 | Velocity 11.9974
+E002 | EE | Hit 1.1975 s | Distance 12.5300 | Angle 29.31 | Velocity 11.9991
+E003 | ED | Hit 1.4802 s | Distance 14.1421 | Angle 37.23 | Velocity 11.9999
+E004 | EB | Hit 1.0527 s | Distance 11.4018 | Angle 25.49 | Velocity 11.9986
+E005 | EE | Hit 0.4318 s | Distance 5.0990 | Angle 10.17 | Velocity 11.9962
+E006 | ED | Hit 0.8422 s | Distance 9.4868 | Angle 20.14 | Velocity 11.9978
+E007 | ED | Hit 0.8149 s | Distance 9.2195 | Angle 19.46 | Velocity 11.9985
+E009 | ED | Hit 0.2653 s | Distance 3.1623 | Angle 6.23 | Velocity 11.9909
+E010 | EB | Hit 0.9009 s | Distance 10.0499 | Angle 21.61 | Velocity 11.9987
+E011 | EB | Hit 0.5406 s | Distance 6.3246 | Angle 12.77 | Velocity 11.9961
+E012 | ED | Hit 0.9640 s | Distance 10.6301 | Angle 23.21 | Velocity 11.9981
+
+E -> B IMPACTS
+E007 | ED | Hit 1.0918 s | Distance 9.2195 | Angle 32.38 | Velocity 9.9995 | SINKS B
+
+Destroyed in Step : 11
+Step End Time     : 1.4802 seconds
+Cumulative Time   : 1.4802 seconds
+B Status          : SUNK
+Sunk By           : E007
+Sink Time         : 1.0918 seconds
+
+[ FINAL RESULT ]
+Iterations Run    : 1
+B Status          : SUNK
+Final B Position  : (12, 12)
+Escorts Destroyed : 11
+Escorts Remaining : 1
+Total Step Time   : 1.4802 seconds
+Sunk By           : E007
+Sink Iteration    : 1
+Sink Time In Step : 1.0918 seconds
+
+FINAL ESCORT STATES
+E001 | ED | DESTROYED in iteration 1
+E002 | EE | DESTROYED in iteration 1
+E003 | ED | DESTROYED in iteration 1
+E004 | EB | DESTROYED in iteration 1
+E005 | EE | DESTROYED in iteration 1
+E006 | ED | DESTROYED in iteration 1
+E007 | ED | DESTROYED in iteration 1
+E008 | EC | ALIVE
+E009 | ED | DESTROYED in iteration 1
+E010 | EB | DESTROYED in iteration 1
+E011 | EB | DESTROYED in iteration 1
+E012 | ED | DESTROYED in iteration 1
+=============================================================
+
+=============================================================
+SIMULATION RUN 5
+=============================================================
+Mode              : PART 1-B - SIMULATION 2
+Battleship        : USS Iowa (BB-61) [U]
+Initial Position  : (12, 12)
+B Vmax            : 12.00
+Canvas            : (0,0) to (12,12)
+Escort Count      : 12
+Seed              : 121
+Path Points       : 6
+Path 01          : (12, 12)
+Path 02          : (12, 4)
+Path 03          : (2, 7)
+Path 04          : (6, 5)
+Path 05          : (3, 8)
+Path 06          : (1, 1)
+Jam After         : 5 iterations
+Jammed B Angles   : 12 - 90 degrees
+
+-------------------------------------------------------------
+ITERATION 1
+-------------------------------------------------------------
+B Position        : (12, 12)
+B Angle Range     : 0 - 90 degrees
+
+B -> E IMPACTS
+E001 | ED | Hit 0.7874 s | Distance 8.9443 | Angle 18.78 | Velocity 11.9974
+E002 | EE | Hit 1.1975 s | Distance 12.5300 | Angle 29.31 | Velocity 11.9991
+E003 | ED | Hit 1.4802 s | Distance 14.1421 | Angle 37.23 | Velocity 11.9999
+E004 | EB | Hit 1.0527 s | Distance 11.4018 | Angle 25.49 | Velocity 11.9986
+E005 | EE | Hit 0.4318 s | Distance 5.0990 | Angle 10.17 | Velocity 11.9962
+E006 | ED | Hit 0.8422 s | Distance 9.4868 | Angle 20.14 | Velocity 11.9978
+E007 | ED | Hit 0.8149 s | Distance 9.2195 | Angle 19.46 | Velocity 11.9985
+E009 | ED | Hit 0.2653 s | Distance 3.1623 | Angle 6.23 | Velocity 11.9909
+E010 | EB | Hit 0.9009 s | Distance 10.0499 | Angle 21.61 | Velocity 11.9987
+E011 | EB | Hit 0.5406 s | Distance 6.3246 | Angle 12.77 | Velocity 11.9961
+E012 | ED | Hit 0.9640 s | Distance 10.6301 | Angle 23.21 | Velocity 11.9981
+
+E -> B IMPACTS
+E007 | ED | Hit 1.0918 s | Distance 9.2195 | Angle 32.38 | Velocity 9.9995 | SINKS B
+
+Destroyed in Step : 11
+Step End Time     : 1.4802 seconds
+Cumulative Time   : 1.4802 seconds
+B Status          : SUNK
+Sunk By           : E007
+Sink Time         : 1.0918 seconds
+
+[ FINAL RESULT ]
+Iterations Run    : 1
+B Status          : SUNK
+Final B Position  : (12, 12)
+Escorts Destroyed : 11
+Escorts Remaining : 1
+Total Step Time   : 1.4802 seconds
+Sunk By           : E007
+Sink Iteration    : 1
+Sink Time In Step : 1.0918 seconds
+
+FINAL ESCORT STATES
+E001 | ED | DESTROYED in iteration 1
+E002 | EE | DESTROYED in iteration 1
+E003 | ED | DESTROYED in iteration 1
+E004 | EB | DESTROYED in iteration 1
+E005 | EE | DESTROYED in iteration 1
+E006 | ED | DESTROYED in iteration 1
+E007 | ED | DESTROYED in iteration 1
+E008 | EC | ALIVE
+E009 | ED | DESTROYED in iteration 1
+E010 | EB | DESTROYED in iteration 1
+E011 | EB | DESTROYED in iteration 1
+E012 | ED | DESTROYED in iteration 1
+=============================================================

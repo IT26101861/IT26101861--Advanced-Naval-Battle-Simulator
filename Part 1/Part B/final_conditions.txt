@@ -1,0 +1,28 @@
+=============================================================
+                    FINAL CONDITIONS
+=============================================================
+
+Simulation Mode   : PART 1-B - SIMULATION 2
+Iterations Run    : 1
+Battleship Status : SUNK
+Final B Position  : (12, 12)
+Escorts Destroyed : 11
+Escorts Remaining : 1
+Total Step Time   : 1.4802 seconds
+Destroyed By      : E007
+Destroyed At Step : 1
+Sink Time In Step : 1.0918 seconds
+
+[ ESCORT FINAL STATES ]
+E001 | ED  | Position (8,4) | DESTROYED in iteration 1
+E002 | EE  | Position (6,1) | DESTROYED in iteration 1
+E003 | ED  | Position (2,2) | DESTROYED in iteration 1
+E004 | EB  | Position (1,9) | DESTROYED in iteration 1
+E005 | EE  | Position (7,11) | DESTROYED in iteration 1
+E006 | ED  | Position (3,9) | DESTROYED in iteration 1
+E007 | ED  | Position (10,3) | DESTROYED in iteration 1
+E008 | EC  | Position (0,0) | ALIVE
+E009 | ED  | Position (11,9) | DESTROYED in iteration 1
+E010 | EB  | Position (2,11) | DESTROYED in iteration 1
+E011 | EB  | Position (6,10) | DESTROYED in iteration 1
+E012 | ED  | Position (5,4) | DESTROYED in iteration 1
