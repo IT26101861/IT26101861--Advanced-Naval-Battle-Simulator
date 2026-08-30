@@ -1,0 +1,305 @@
+=============================================================
+                    INITIAL CONDITIONS
+=============================================================
+
+Simulation Mode   : PART 1-C - PART 1-A
+
+[ BATTLESHIP ]
+Type / Name       : USS Iowa (BB-61)
+Notation          : U
+Gun               : 50-caliber Mark 7 gun
+Initial Position  : (10, 10)
+Minimum Velocity  : 0.00
+Maximum Velocity  : 10.00
+Minimum Angle     : 0 degrees
+Maximum Angle     : 90 degrees
+Minimum Range     : 0.0000
+Maximum Range     : 10.1937
+
+[ BATTLEFIELD ]
+Lower Left        : (0, 0)
+Upper Right       : (10, 10)
+Number of Escorts : 20
+Seed Value        : 23
+
+[ ESCORT SHIPS ]
+
+Escort ID         : E001
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (3, 3)
+Minimum Velocity  : 5.00
+Maximum Velocity  : 7.00
+Minimum Angle     : 26 degrees
+Maximum Angle     : 76 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 1.1964
+Maximum Range     : 4.9949
+Impact Power      : 0.05 (5%)
+
+Escort ID         : E002
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (2, 3)
+Minimum Velocity  : 6.00
+Maximum Velocity  : 12.00
+Minimum Angle     : 37 degrees
+Maximum Angle     : 57 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 3.3525
+Maximum Range     : 14.6789
+Impact Power      : 0.08 (8%)
+
+Escort ID         : E003
+Type / Notation   : EE
+Type Name         : Japanese Kaibokan
+Gun               : (4.7 inch) naval guns
+Position          : (6, 4)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 7.00
+Minimum Angle     : 13 degrees
+Maximum Angle     : 83 degrees
+Angle Range       : 70 degrees
+Minimum Range     : 0.0986
+Maximum Range     : 4.9949
+Impact Power      : 0.04 (4%)
+
+Escort ID         : E004
+Type / Notation   : EB
+Type Name         : Gabbiano-class Corvette
+Gun               : L/47 dual-purpose gun
+Position          : (4, 10)
+Minimum Velocity  : 5.00
+Maximum Velocity  : 6.00
+Minimum Angle     : 59 degrees
+Maximum Angle     : 89 degrees
+Angle Range       : 30 degrees
+Minimum Range     : 0.0889
+Maximum Range     : 3.2402
+Impact Power      : 0.06 (6%)
+
+Escort ID         : E005
+Type / Notation   : EC
+Type Name         : Matsu-class Destroyer
+Gun               : Type 89 dual-purpose gun
+Position          : (4, 9)
+Minimum Velocity  : 1.00
+Maximum Velocity  : 4.00
+Minimum Angle     : 12 degrees
+Maximum Angle     : 37 degrees
+Angle Range       : 25 degrees
+Minimum Range     : 0.0415
+Maximum Range     : 1.5678
+Impact Power      : 0.07 (7%)
+
+Escort ID         : E006
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (3, 10)
+Minimum Velocity  : 9.00
+Maximum Velocity  : 12.00
+Minimum Angle     : 17 degrees
+Maximum Angle     : 37 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 4.6172
+Maximum Range     : 14.1103
+Impact Power      : 0.08 (8%)
+
+Escort ID         : E007
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (3, 1)
+Minimum Velocity  : 6.00
+Maximum Velocity  : 7.00
+Minimum Angle     : 26 degrees
+Maximum Angle     : 76 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 1.7228
+Maximum Range     : 4.9949
+Impact Power      : 0.05 (5%)
+
+Escort ID         : E008
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (1, 4)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 7.00
+Minimum Angle     : 11 degrees
+Maximum Angle     : 61 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.1527
+Maximum Range     : 4.9949
+Impact Power      : 0.05 (5%)
+
+Escort ID         : E009
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (5, 5)
+Minimum Velocity  : 10.00
+Maximum Velocity  : 12.00
+Minimum Angle     : 38 degrees
+Maximum Angle     : 58 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 9.1620
+Maximum Range     : 14.6789
+Impact Power      : 0.08 (8%)
+
+Escort ID         : E010
+Type / Notation   : EE
+Type Name         : Japanese Kaibokan
+Gun               : (4.7 inch) naval guns
+Position          : (2, 2)
+Minimum Velocity  : 3.00
+Maximum Velocity  : 6.00
+Minimum Angle     : 9 degrees
+Maximum Angle     : 79 degrees
+Angle Range       : 70 degrees
+Minimum Range     : 0.2835
+Maximum Range     : 3.6697
+Impact Power      : 0.04 (4%)
+
+Escort ID         : E011
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (0, 9)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 12.00
+Minimum Angle     : 45 degrees
+Maximum Angle     : 65 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 0.3124
+Maximum Range     : 14.6789
+Impact Power      : 0.08 (8%)
+
+Escort ID         : E012
+Type / Notation   : EC
+Type Name         : Matsu-class Destroyer
+Gun               : Type 89 dual-purpose gun
+Position          : (4, 5)
+Minimum Velocity  : 4.00
+Maximum Velocity  : 6.00
+Minimum Angle     : 47 degrees
+Maximum Angle     : 72 degrees
+Angle Range       : 25 degrees
+Minimum Range     : 0.9587
+Maximum Range     : 3.6608
+Impact Power      : 0.07 (7%)
+
+Escort ID         : E013
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (10, 3)
+Minimum Velocity  : 1.00
+Maximum Velocity  : 9.00
+Minimum Angle     : 25 degrees
+Maximum Angle     : 75 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.0510
+Maximum Range     : 8.2569
+Impact Power      : 0.05 (5%)
+
+Escort ID         : E014
+Type / Notation   : EC
+Type Name         : Matsu-class Destroyer
+Gun               : Type 89 dual-purpose gun
+Position          : (10, 7)
+Minimum Velocity  : 5.00
+Maximum Velocity  : 7.00
+Minimum Angle     : 61 degrees
+Maximum Angle     : 86 degrees
+Angle Range       : 25 degrees
+Minimum Range     : 0.3547
+Maximum Range     : 4.2359
+Impact Power      : 0.07 (7%)
+
+Escort ID         : E015
+Type / Notation   : EB
+Type Name         : Gabbiano-class Corvette
+Gun               : L/47 dual-purpose gun
+Position          : (7, 6)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 4.00
+Minimum Angle     : 35 degrees
+Maximum Angle     : 65 degrees
+Angle Range       : 30 degrees
+Minimum Range     : 0.3124
+Maximum Range     : 1.6310
+Impact Power      : 0.06 (6%)
+
+Escort ID         : E016
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (5, 2)
+Minimum Velocity  : 8.00
+Maximum Velocity  : 12.00
+Minimum Angle     : 61 degrees
+Maximum Angle     : 81 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 2.0160
+Maximum Range     : 12.4484
+Impact Power      : 0.08 (8%)
+
+Escort ID         : E017
+Type / Notation   : EB
+Type Name         : Gabbiano-class Corvette
+Gun               : L/47 dual-purpose gun
+Position          : (9, 5)
+Minimum Velocity  : 2.00
+Maximum Velocity  : 3.00
+Minimum Angle     : 38 degrees
+Maximum Angle     : 68 degrees
+Angle Range       : 30 degrees
+Minimum Range     : 0.2832
+Maximum Range     : 0.9174
+Impact Power      : 0.06 (6%)
+
+Escort ID         : E018
+Type / Notation   : EC
+Type Name         : Matsu-class Destroyer
+Gun               : Type 89 dual-purpose gun
+Position          : (10, 4)
+Minimum Velocity  : 3.00
+Maximum Velocity  : 7.00
+Minimum Angle     : 24 degrees
+Maximum Angle     : 49 degrees
+Angle Range       : 25 degrees
+Minimum Range     : 0.6818
+Maximum Range     : 4.9949
+Impact Power      : 0.07 (7%)
+
+Escort ID         : E019
+Type / Notation   : EE
+Type Name         : Japanese Kaibokan
+Gun               : (4.7 inch) naval guns
+Position          : (7, 5)
+Minimum Velocity  : 3.00
+Maximum Velocity  : 4.00
+Minimum Angle     : 3 degrees
+Maximum Angle     : 73 degrees
+Angle Range       : 70 degrees
+Minimum Range     : 0.0959
+Maximum Range     : 1.6310
+Impact Power      : 0.04 (4%)
+
+Escort ID         : E020
+Type / Notation   : ED
+Type Name         : F-class Escort Ship
+Gun               : SK C/32 naval gun
+Position          : (0, 0)
+Minimum Velocity  : 3.00
+Maximum Velocity  : 5.00
+Minimum Angle     : 24 degrees
+Maximum Angle     : 74 degrees
+Angle Range       : 50 degrees
+Minimum Range     : 0.4862
+Maximum Range     : 2.5484
+Impact Power      : 0.05 (5%)

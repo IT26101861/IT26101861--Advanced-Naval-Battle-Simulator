@@ -1,0 +1,34 @@
+=============================================================
+                    FINAL CONDITIONS
+=============================================================
+
+Simulation Mode   : PART 1-C - PART 1-A
+Iterations Run    : 1
+Battleship Status : ALIVE
+Final B Position  : (10, 10)
+Escorts Destroyed : 15
+Escorts Remaining : 5
+Total Step Time   : 1.8627 seconds
+Cumulative Impact : 0.44 (44%)
+
+[ ESCORT FINAL STATES ]
+E001 | ED  | Position (3,3) | DESTROYED in iteration 1 | E Fired: NO
+E002 | EA  | Position (2,3) | ALIVE | E Fired: YES
+E003 | EE  | Position (6,4) | DESTROYED in iteration 1 | E Fired: NO
+E004 | EB  | Position (4,10) | DESTROYED in iteration 1 | E Fired: NO
+E005 | EC  | Position (4,9) | DESTROYED in iteration 1 | E Fired: NO
+E006 | EA  | Position (3,10) | DESTROYED in iteration 1 | E Fired: YES
+E007 | ED  | Position (3,1) | ALIVE | E Fired: NO
+E008 | ED  | Position (1,4) | ALIVE | E Fired: NO
+E009 | EA  | Position (5,5) | DESTROYED in iteration 1 | E Fired: NO
+E010 | EE  | Position (2,2) | ALIVE | E Fired: NO
+E011 | EA  | Position (0,9) | DESTROYED in iteration 1 | E Fired: YES
+E012 | EC  | Position (4,5) | DESTROYED in iteration 1 | E Fired: NO
+E013 | ED  | Position (10,3) | DESTROYED in iteration 1 | E Fired: YES
+E014 | EC  | Position (10,7) | DESTROYED in iteration 1 | E Fired: YES
+E015 | EB  | Position (7,6) | DESTROYED in iteration 1 | E Fired: NO
+E016 | EA  | Position (5,2) | DESTROYED in iteration 1 | E Fired: YES
+E017 | EB  | Position (9,5) | DESTROYED in iteration 1 | E Fired: NO
+E018 | EC  | Position (10,4) | DESTROYED in iteration 1 | E Fired: NO
+E019 | EE  | Position (7,5) | DESTROYED in iteration 1 | E Fired: NO
+E020 | ED  | Position (0,0) | ALIVE | E Fired: NO
