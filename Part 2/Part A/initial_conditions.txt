@@ -1,0 +1,41 @@
+=============================================================
+                    INITIAL CONDITIONS
+=============================================================
+
+Simulation Mode   : PART 2-A - PART 1-A
+
+[ BATTLESHIP ]
+Type / Name       : USS Iowa (BB-61)
+Notation          : U
+Gun               : 50-caliber Mark 7 gun
+Initial Position  : (5, 5)
+Minimum Velocity  : 0.00
+Maximum Velocity  : 20.00
+Reload Time       : 0.10 seconds
+Attack Strategy   : Threat-first
+Minimum Angle     : 0 degrees
+Maximum Angle     : 90 degrees
+Minimum Range     : 0.0000
+Maximum Range     : 40.7747
+
+[ BATTLEFIELD ]
+Lower Left        : (0, 0)
+Upper Right       : (10, 10)
+Number of Escorts : 1
+Seed Value        : 123
+
+[ ESCORT SHIPS ]
+
+Escort ID         : E001
+Type / Notation   : EA
+Type Name         : 1936A-class Destroyer
+Gun               : SK C/34 naval gun
+Position          : (1, 8)
+Minimum Velocity  : 18.00
+Maximum Velocity  : 24.00
+Minimum Angle     : 3 degrees
+Maximum Angle     : 23 degrees
+Angle Range       : 20 degrees
+Minimum Range     : 3.4523
+Maximum Range     : 42.2365
+Impact Power      : 0.08 (8%)
