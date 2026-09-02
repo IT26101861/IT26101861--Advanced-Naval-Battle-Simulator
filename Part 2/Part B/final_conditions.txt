@@ -1,0 +1,15 @@
+=============================================================
+                    FINAL CONDITIONS
+=============================================================
+
+Simulation Mode   : PART 2-B - PART 1-C / PART 1-A
+Iterations Run    : 1
+Battleship Status : ALIVE
+Final B Position  : (5, 5)
+Escorts Destroyed : 1
+Escorts Remaining : 0
+Total Step Time   : 0.2508 seconds
+Cumulative Impact : 0.08 (8%)
+
+[ ESCORT FINAL STATES ]
+E001 | EA  | Position (1,8) | DESTROYED in iteration 1 | E Shots Fired: 1

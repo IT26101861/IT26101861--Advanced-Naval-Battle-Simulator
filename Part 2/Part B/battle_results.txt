@@ -1,0 +1,19 @@
+=============================================================
+                    PART 1-A RESULTS
+=============================================================
+
+All valid shots are fired at t = 0 seconds.
+Battleship reload/firing delay = 0 seconds.
+Each Escort Ship can fire only once.
+Already-fired shells continue travelling after a ship sinks.
+
+Battleship        : USS Iowa (BB-61) [U]
+Battleship Status : ALIVE
+Escorts Hit by B  : 2
+Battle End Time   : 0.7534 seconds
+
+[ ESCORT SHIPS HIT BY B ]
+E001 | Type EE | Time 0.7534 s | Distance 7.0000 | Angle 21.69 | Velocity 9.9990
+E002 | Type EC | Time 0.6408 s | Distance 6.0828 | Angle 18.32 | Velocity 9.9994
+
+[ ESCORT SHOTS AT B ]
